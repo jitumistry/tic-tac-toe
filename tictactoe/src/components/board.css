@@ -1,0 +1,73 @@
+.container {
+    background: #0f1b21;
+    width: 100vw;
+    height: 100vh;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left {
+    float: right;
+}
+.score {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    background: #1f3540;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.board {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin: auto;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*<div className="box" onClick={(e) => {changeHandler(e,0)}}></div>
+                    <div className="box" onClick={(e) => {changeHandler(e,1)}}></div>
+                    <div className="box" onClick={(e) => {changeHandler(e,2)}}></div>*/
+
+
+                    /*  {
+                isWin ? <div>{isWin} Won the game</div> :
+
+                    <div className='board'>
+                        <div className="row">
+                            <Square onClick={() => handleClick(0)} value={arr[0]} />
+                            <Square onClick={() => handleClick(1)} value={arr[1]} />
+                            <Square onClick={() => handleClick(2)} value={arr[2]} />
+                        </div>
+                        <div className="row">
+                            <Square onClick={() => handleClick(3)} value={arr[3]} />
+                            <Square onClick={() => handleClick(4)} value={arr[4]} />
+                            <Square onClick={() => handleClick(5)} value={arr[5]} />
+                        </div>
+                        <div className="row">
+                            <Square onClick={() => handleClick(6)} value={arr[6]} />
+                            <Square onClick={() => handleClick(7)} value={arr[7]} />
+                            <Square onClick={() => handleClick(8)} value={arr[8]} />
+                        </div>
+                    </div>
+            }
+
+
+            */
